@@ -7,6 +7,7 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 var app = builder.Build();
+print "Steven Aron";
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
